@@ -1,0 +1,221 @@
+*
+{
+    color: #353535;
+    font-family: Calibri;
+}
+body 
+{
+    background-image:url(../images/pic03.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    margin: 0em;
+    padding: 0em;
+}
+#content
+{
+    width: 1100px;
+    min-height: 500px;
+   
+    background-color: #fff;
+    margin: auto;
+   
+}
+#content img
+{
+    max-width: 130px;
+}
+#content i
+{
+    color: black;
+}
+a
+{
+    text-decoration: none;
+}
+ul, h2
+{
+    text-align: center;    
+}
+li
+{
+    text-decoration: none;
+    list-style:none;
+    display: inline-block;
+
+}
+#nav
+{
+    width: 1000px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+#accueil
+{
+    width: 100px;
+    height: 100px;
+    border: solid;
+}
+i
+{
+    transition: color 0.4s linear 0.1s;
+    color: rgba(255, 255, 255, 0.4);
+}
+i:hover
+{
+    transition: color 0.4s linear 0.1s;
+    color: #ffffff;
+}
+#icoLogin
+{
+    color: black;
+}
+#icoLogin:hover
+{
+    transition: color 0.4s linear 0.1s;
+    color: #ffffff;
+}
+#icoProf:hover
+{
+    transition: color 0.4s linear 0.1s;
+    color: #FF0000;
+}
+#icoAdmin:hover
+{
+    transition: color 0.4s linear 0.1s;
+    color: #1900FF;
+}
+#icoEtud:hover
+{
+    transition: color 0.4s linear 0.1s;
+    color: #F2FF00;
+}
+#tableLogin
+{
+    width: 300px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-left:100px;;
+  
+}
+#tableLogin tr td
+{
+    padding-left: 10px;
+}
+input[type=submit]
+{
+    transition: background-color 0.4s linear 0.1s;
+    background-color: #83CC47;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#tableLogin i
+{
+    margin:auto;
+}
+input[type=submit]:hover
+{
+    transition: background-color 0.4s linear 0.1s;
+    background-color: #203F07; 
+}
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.login
+{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width:450px;
+    height:60px;
+    display: inline-block;
+    padding-left: 34px;
+    padding-right: 33px;
+    height: 500px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e0e0+3,eeeeee+100 */
+    background: rgb(224,224,224); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(224,224,224,1) 3%, rgba(238,238,238,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(224,224,224,1) 3%,rgba(238,238,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(224,224,224,1) 3%,rgba(238,238,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    border-radius: 0px 0px 10px 10px;
+
+}
+#espace
+{
+    position: relative;
+    height: 20px;
+    border: solid;
+}
+#tabSelect
+{
+    text-align: center;
+    padding-top: 20px;
+}
+#btnEnvoyer
+{
+	width: 470px;
+}
+td
+{
+	text-align: center;
+}
+#champProf, #btnEnvoyer
+{
+	margin: auto;
+}
+#loading
+{
+    height: 80px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: auto;
+    border-radius: 20px;
+}
+#loading h2
+{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+}
+#deconnecter
+{
+    padding-top: 100px;
+    margin: auto;
+    width: 200px;
+}
+.tabForm
+{
+    margin: auto;
+    padding-top: 50px;
+}
+.tabForm tr:nth-child(even) {
+    background-color: #B75050;
+    color: #000000;
+}
+.tabForm td, .tabForm th
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #000000;
+    text-align: center;
+}
